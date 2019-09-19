@@ -120,8 +120,8 @@ class flight_path: #lets us make a flight path ealsiy
         file = open("VariableWaypoint.bash","w") #overwrite existing file if it exists
         file.write(string)
         file.close();
-	output = os.popen('bash VariableWaypoint.bash').read()#call and exectute the bash function
-	print(output)
+        output = os.popen('bash VariableWaypoint.bash').read()#call and exectute the bash function
+        print(output)
        
         
 fp = flight_path()
