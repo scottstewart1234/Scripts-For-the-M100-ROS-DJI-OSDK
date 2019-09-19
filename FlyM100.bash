@@ -3,7 +3,7 @@
 
 #Import the bash files necessary to run ROS
 source /opt/ros/melodic/setup.bash
-source /home/scottstewart/catkin_ws/devel/setup.bash
+source ~/catkin_ws/devel/setup.bash
 
 #Takeoff
 roscd dji_sdk
