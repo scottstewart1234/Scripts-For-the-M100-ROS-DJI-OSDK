@@ -2,6 +2,8 @@
 Simple bash scripts for using the ROS DJI OSDK. I also included a python script for creating a squarewave waypoint map and flying that.
 Simply change the coordinates seen at the bottom of the python script to auto generate the flight path.
 
+I appologize for any spelling errors in this readme. I wrote this in a hurry and am Dyslexic.
+
 # I couldn't find any other examples for actually running the dji osdk from command line, so I made one. I hope this helps other new users.
 To run this program:
 1) install ros melodic on a ubuntu based system
