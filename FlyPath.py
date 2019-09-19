@@ -125,5 +125,5 @@ class flight_path: #lets us make a flight path ealsiy
        
         
 fp = flight_path()
-fp.calculatePath(10,10,10.0005,10.0005)
+fp.calculatePath(10,10,10.0005,10.0005) #start latitude, start longitude, end latitude, end logitude. Makes a squarewave pattern between these points
 fp.runBash();
